@@ -12,7 +12,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     Advanced Load testing written in plain Python.
   </div>
   <div>
-    <a href="https://github.com/locustio/locust"><svg class="button-icon" role="presentation" aria-hidden="true" height="50" width="50"><use href="/icons.svg#github-icon-dark"></use></svg>GitHub</a>
+    <a class="center-link" href="https://github.com/locustio/locust"><svg class="button-icon" role="presentation" aria-hidden="true" height="50" width="50"><use href="/icons.svg#github-icon-dark"></use></svg>GitHub</a>
   </div>
 </section>
 
