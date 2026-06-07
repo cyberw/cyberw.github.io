@@ -40,7 +40,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           Documentation
         </a>
       </li>
-      <li><a href="https://github.com/locustio/locust"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
+      <li><a href="https://github.com/locustio/locust"><svg class="button-icon github-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
       <li>
         <a href="https://medium.com/locust">
           <img class="button-icon" src="${mediumLogo}" alt="">
