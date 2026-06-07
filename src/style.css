@@ -170,7 +170,6 @@ pre.vscode-dark {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -193,7 +192,6 @@ pre.vscode-dark {
 
 #next-steps {
   display: flex;
-  border-top: 1px solid var(--border);
   text-align: left;
 
   & > div {
@@ -217,12 +215,6 @@ pre.vscode-dark {
 }
 
 #docs {
-  border-right: 1px solid var(--border);
-
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
 }
 
 #next-steps ul {
@@ -282,7 +274,6 @@ pre.vscode-dark {
 
 #spacer {
   height: 88px;
-  border-top: 1px solid var(--border);
   @media (max-width: 1024px) {
     height: 48px;
   }
@@ -291,21 +282,4 @@ pre.vscode-dark {
 .ticks {
   position: relative;
   width: 100%;
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    top: -4.5px;
-    border: 5px solid transparent;
-  }
-
-  &::before {
-    left: 0;
-    border-left-color: var(--border);
-  }
-  &::after {
-    right: 0;
-    border-right-color: var(--border);
-  }
 }
