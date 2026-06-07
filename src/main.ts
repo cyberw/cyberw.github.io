@@ -40,14 +40,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           Documentation
         </a>
       </li>
-      <li><a href="https://github.com/locustio/locust"><svg class="button-icon github-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
+      <li><a href="https://github.com/locustio/locust"><svg class="button-icon invert" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
       <li>
         <a href="https://medium.com/locust">
           <img class="button-icon" src="${mediumLogo}" alt="">
           Blog
         </a>
       </li>
-      <li><a href="https://discord.gg/faeXQY82Zs"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#discord-icon"></use></svg>Discord</a></li>
+      <li><a href="https://discord.gg/faeXQY82Zs"><svg class="button-icon invert" role="presentation" aria-hidden="true"><use href="/icons.svg#discord-icon"></use></svg>Discord</a></li>
     </ul>
   </div>
   <div id="social">

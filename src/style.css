@@ -276,7 +276,7 @@ pre.vscode-dark {
   }
 
   @media (prefers-color-scheme: dark) {
-    .github-icon {
+    .invert {
       filter: invert(1);
     }
   }
