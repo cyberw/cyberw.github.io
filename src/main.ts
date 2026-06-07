@@ -41,7 +41,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#social-icon"></use></svg>
     <h2>Connect with us</h2>
     <ul>
-      <li><a href="https://github.com/locustio/locust"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
       <li><a href="https://discord.gg/faeXQY82Zs"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#discord-icon"></use></svg>Discord</a></li>
       <li><a href="https://x.com/locustio"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#x-icon"></use></svg>X.com</a></li>
     </ul>
