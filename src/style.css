@@ -114,7 +114,7 @@ pre.vscode-dark {
 
   code {
     font-family: var(--mono);
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 160%;
     background: none;
     padding: 0;
@@ -143,10 +143,6 @@ pre.vscode-dark {
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     box-sizing: border-box;
-
-    code {
-      font-size: 11px;
-    }
   }
 }
 
