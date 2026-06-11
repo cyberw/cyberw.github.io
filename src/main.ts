@@ -62,7 +62,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </div>
 </section>
-
+<section>
+<img src="https://img.shields.io/pypi/pyversions/locust" alt="Supported Python versions">
+<a href="https://pepy.tech/projects/locust"><img src="https://static.pepy.tech/personalized-badge/locust?period=total&units=INTERNATIONAL_SYSTEM&left_color=GRAY&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>
 <div class="ticks"></div>
 <section id="spacer"></section>
 `
