@@ -28,12 +28,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <h2><a href="https://docs.locust.io/en/stable/installation.html">Get started now &gt;&gt;</a></h2>
   </div>
 </section>
-
-<div class="ticks"></div>
-
 <section id="next-steps">
   <div id="docs">
-    <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#documentation-icon"></use></svg>
     <h2>Resources</h2>
     <ul>
       <li>
@@ -53,7 +49,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </ul>
   </div>
   <div id="social">
-    <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#social-icon"></use></svg>
     <h2>Run Locust at scale</h2>
     <div class="azure-banner">
       <span class="azure-logo">${azureLogo}</span>
