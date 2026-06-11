@@ -198,7 +198,6 @@ pre.vscode-dark {
 #next-steps {
   display: flex;
   text-align: left;
-  margin-top: 56px;
 
   @media (max-width: 1024px) {
     margin-top: 32px;
