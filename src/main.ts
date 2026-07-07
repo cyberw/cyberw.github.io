@@ -48,7 +48,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li><a href="https://discord.gg/faeXQY82Zs"><svg class="button-icon invert" role="presentation" aria-hidden="true"><use href="/icons.svg#discord-icon"></use></svg>Discord</a></li>
     </ul>
   </div>
-  <div id="social">
+  <!-- div id="social">
     <h2>Run Locust at scale</h2>
     <div class="azure-banner">
       <span class="azure-logo">${azureLogo}</span>
@@ -60,7 +60,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <a class="azure-docs" href="https://aka.ms/loadtesting/quickstart-locust">Read the docs</a>
       </div>
     </div>
-  </div>
+  </div -->
 </section>
 <section>
 <img src="https://img.shields.io/pypi/pyversions/locust" alt="Supported Python versions">
